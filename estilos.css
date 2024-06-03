@@ -156,7 +156,7 @@ nav a:hover{
     }
     nav ul {
       position: fixed;
-      background-color: #a39f95;
+      background-color: #d8d4cb;
       flex-direction: column;
       top: 86px;
       left: 10%;
@@ -164,7 +164,7 @@ nav a:hover{
       text-align: center;
       transform: translateX(120%);
       transition: transform 0.5s ease-in;
-        padding: 2px;
+        padding: 5px;
     }
   
   

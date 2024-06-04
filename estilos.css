@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
 
@@ -32,8 +31,8 @@ html{
 }
 
 .logo{
-    max-height: 170px;
-    max-width: 170px;
+    max-height: 200px;
+    max-width: 200px;
     display: flex;
 }
 
@@ -60,7 +59,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 0rem 0rem 25rem;
+    padding: 0rem 0rem 0rem 0rem;
     background-color: var(--bg-color);
     box-shadow: 0 3px 5px  rgba(0, 0, 0, 0.1);
 }
@@ -77,35 +76,34 @@ nav a:hover{
    
    }
    
-
- 
-
    nav ul{
        display: flex;
        gap: 1.5rem;
-       padding: 6rem 2rem 0rem 7.5rem;
+       padding: 6rem 0rem 0rem 7.5rem;
    }
    
    nav ul li {
     font-weight: var(--bold-font);
 }
 
+
+
 /*esconder boton hamburguesa*/
 
 .burger-menu{
-    color:#4c4e64;
-    font-size: 2.5rem;
+    color:var(--primary-color);
+    font-size: 2rem;
     border: 0;
-    background-color: #f4f4f4;
+    background-color: transparent;
     cursor: pointer;
     display: none;
-    padding: 6rem 1rem 0rem 1rem;
 }
 
 .inicio img{
     max-height: 40%;
     max-width: 40%;
 }
+
 
 .inicio{
 
@@ -138,12 +136,16 @@ nav a:hover{
 }
 
 .bconfirmar:hover{
-    background-color: #a39f95;
+    background-color: #8a8375;
   
 }
 .bconfirmar a:hover{
     color:#f4f4f4;
 }
+
+
+
+
 
 
 /* Media queries for responsiveness */
@@ -153,7 +155,7 @@ nav a:hover{
     }
     nav ul {
       position: fixed;
-      background-color: #dbd8d8;
+      background-color: #d8d4cb;
       flex-direction: column;
       top: 86px;
       left: 10%;
@@ -162,7 +164,7 @@ nav a:hover{
       transform: translateX(120%);
       transition: transform 0.5s ease-in;
         padding: 2rem;
-        bottom: 0;
+        bottom:0;
     }
   
   
@@ -179,9 +181,9 @@ nav a:hover{
     nav ul.show {
       transform: translateX(0);
     }
-nav img{
- max-width: 100px;
- max-height: 100px;
+    nav logo{
+ max-width: 50px;
+ max-height: 50px;
 }
 }
-  
+

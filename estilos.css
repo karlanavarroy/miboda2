@@ -182,8 +182,8 @@ nav a:hover{
       transform: translateX(0);
     }
     nav logo{
- max-width: 50px;
- max-height: 50px;
+ max-width: 20px;
+ max-height: 20px;
 }
 }
 
